@@ -5,6 +5,8 @@ let {
     DB_STRING,
     DB_STRING_DEV,
     PORT,
+    nodemailerEmail,
+    nodemailerPassword,
     JWT_SECRET
 } = process.env;
 

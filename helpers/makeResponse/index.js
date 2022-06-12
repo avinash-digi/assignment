@@ -1,4 +1,5 @@
 export const responseMessages = {
+  ACCOUNT_DISABLED: "Your account is disabled please contact to admin",
   ALREADY_EXIST: "Username Aleardy Exist,Please Choose Different One",
   ALREADY_REGISTER: "Email already registered",
   REGISTERD: "Registered Successfully",
@@ -15,6 +16,8 @@ export const responseMessages = {
   USER_NOT_EXIST: "This user is not exist",
   LOGIN: "Successfully LOGIN",
   INCORRECT_USERNAME: "Username is incorrect",
+  THIRD_PARTY_SERVICE:
+    "You can't be procceed further as we get false from third party service ",
 };
 
 export const notificationPayload = {};
